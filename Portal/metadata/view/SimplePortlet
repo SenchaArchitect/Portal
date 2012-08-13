@@ -1,0 +1,35 @@
+{
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "isPortlet": true,
+        "designer|userClassName": "SimplePortlet",
+        "designer|userAlias": "simpleportlet",
+        "cls": "x-portlet",
+        "draggable": [
+            "{moveOnDrag:false}"
+        ],
+        "frame": true,
+        "height": null,
+        "width": null,
+        "closable": true,
+        "collapsible": true,
+        "title": "Portlet"
+    },
+    "configAlternates": {
+        "draggable": "object"
+    },
+    "id": "ExtBox1-ext-gen26509",
+    "designerId": "1eea5877-acbb-4edc-8e58-ca94bcdf7f70",
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "isPortlet",
+            "type": "boolean"
+        }
+    ]
+}

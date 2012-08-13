@@ -1,0 +1,139 @@
+{
+    "type": "controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyController",
+        "views": [
+            "Portal",
+            "PortalPanel",
+            "SimplePortlet",
+            "ChartPortlet",
+            "GridPortlet",
+            "Message"
+        ]
+    },
+    "id": "ExtBox1-ext-gen25075",
+    "designerId": "6a0acaee-7d2e-4004-b317-0ab61506e797",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "onPortletBeforeClose",
+                "fn": "onPortletBeforeClose",
+                "implHandler": [
+                    "// Provide a custom fade out effect when a portlet is removed from the portal",
+                    "if (!panel.closing) {",
+                    "    panel.closing = true;",
+                    "    panel.el.animate({",
+                    "        opacity: 0,",
+                    "        callback: panel.doClose,",
+                    "        scope: panel",
+                    "    });",
+                    "}",
+                    "return false;",
+                    ""
+                ],
+                "name": "beforeclose",
+                "scope": "me",
+                "designer|targetType": "Ext.panel.Panel",
+                "designer|controlQuery": "panel[isPortlet]"
+            },
+            "designerId": "4690992a-7342-4d76-8b24-1ef349e8abbd"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "showMsg",
+                "fn": "showMsg",
+                "designer|params": [
+                    "msg"
+                ],
+                "implHandler": [
+                    "var msgId = Ext.id(),",
+                    "    msgCmp = this.getMsg();",
+                    "",
+                    "this.msgId = msgId;",
+                    "msgCmp.update(msg);",
+                    "msgCmp.show();",
+                    "",
+                    "Ext.defer(this.clearMsg, 3000, this, [msgId]);"
+                ]
+            },
+            "designerId": "3f66cf28-7e4f-4b6c-8aa9-9e398efba77d"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "clearMsg",
+                "fn": "clearMsg",
+                "designer|params": [
+                    "msgId"
+                ],
+                "implHandler": [
+                    "if (msgId === this.msgId) {",
+                    "    this.getMsg().hide();",
+                    "}"
+                ]
+            },
+            "designerId": "371fdd0d-7011-4775-b692-14034d18582b"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "msg",
+                "autoCreate": true,
+                "ref": "msg",
+                "selector": "message",
+                "xtype": "message"
+            },
+            "designerId": "3b72f320-2675-4345-a479-f5caa87ab95e"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "onPortletClose",
+                "fn": "onPortletClose",
+                "designer|params": [
+                    "panel"
+                ],
+                "implHandler": [
+                    "this.showMsg('\"' + panel.title + '\" was removed');"
+                ],
+                "name": "close",
+                "scope": "me",
+                "designer|targetType": "Ext.panel.Panel",
+                "designer|controlQuery": "panel[isPortlet]"
+            },
+            "designerId": "53834857-2e8c-4c9e-962e-62ccb0591c17"
+        }
+    ]
+}

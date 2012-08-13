@@ -1,0 +1,121 @@
+{
+    "type": "viewport",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|padding": "0 5 5 5",
+        "designer|userClassName": "Portal",
+        "designer|initialView": true,
+        "layout": "border"
+    },
+    "id": "ExtBox1-ext-gen1854",
+    "designerId": "93836fcc-3d24-4393-b45f-254d04cec350",
+    "cn": [
+        {
+            "type": "component",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|region": "north",
+                "designer|userClassName": "MyComponent",
+                "cls": "app-header",
+                "height": 40,
+                "html": [
+                    "Ext Portal"
+                ],
+                "id": null
+            },
+            "designerId": "af15ce85-cdec-490b-a170-d3e4b847b447"
+        },
+        {
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|region": "west",
+                "layout|split": true,
+                "container|animate": true,
+                "designer|userClassName": "MyPanel",
+                "id": "app-options",
+                "maxWidth": 400,
+                "minWidth": 150,
+                "width": 200,
+                "layout": "accordion",
+                "collapsible": true,
+                "title": "Options"
+            },
+            "designerId": "a06f4909-53ac-4373-a2d5-9c42b7f26a2d",
+            "cn": [
+                {
+                    "type": "panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyPanel1",
+                        "html": [
+                            "<div class=\"portlet-content\"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed metus nibh ",
+                            "sodales a, porta at, vulputate eget, dui. Pellentesque ut nisl. Maecenas tortor turpis, interdum non, sodales",
+                            "non, iaculis ac, lacus. Vestibulum auctor, tortor quis iaculis malesuada, libero lectus bibendum purus, sit amet",
+                            "tincidunt quam turpis vel lacus. In pellentesque nisl non sem. Suspendisse nunc sem, pretium eget, cursus a, ",
+                            "fringilla.</p></div>"
+                        ],
+                        "autoScroll": true,
+                        "collapsed": false,
+                        "iconCls": "nav",
+                        "title": "Navigation"
+                    },
+                    "designerId": "1226f757-f33d-459d-a438-7256c7e04c17"
+                },
+                {
+                    "type": "panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyPanel2",
+                        "html": [
+                            "<div class=\"portlet-content\"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed metus nibh ",
+                            "sodales a, porta at, vulputate eget, dui. Pellentesque ut nisl. Maecenas tortor turpis, interdum non, sodales",
+                            "non, iaculis ac, lacus. Vestibulum auctor, tortor quis iaculis malesuada, libero lectus bibendum purus, sit amet",
+                            "tincidunt quam turpis vel lacus. In pellentesque nisl non sem. Suspendisse nunc sem, pretium eget, cursus a, ",
+                            "fringilla.</p></div>"
+                        ],
+                        "autoScroll": true,
+                        "collapsed": true,
+                        "iconCls": "settings",
+                        "title": "Settings"
+                    },
+                    "designerId": "5980dbd7-cded-4b94-b944-d58de6bbd0fb"
+                }
+            ]
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "portal panel",
+                "layout|region": "center"
+            },
+            "designerId": "b88c3ee5-0048-413e-be4c-eba644273762",
+            "masterInstanceId": "ExtBox1-ext-gen8249"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "stores": [
+            "ChartStore",
+            "GridStore"
+        ],
+        "autoCreateViewport": true,
+        "name": "MyApp",
+        "controllers": [
+            "MyController"
+        ]
+    },
+    "id": "ExtBox1-ext-gen1549",
+    "designerId": "application"
+}

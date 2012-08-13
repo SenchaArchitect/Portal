@@ -1,0 +1,165 @@
+{
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "isPortlet": true,
+        "designer|userClassName": "ChartPortlet",
+        "designer|userAlias": "chartportlet",
+        "cls": "x-portlet",
+        "draggable": [
+            "{moveOnDrag:false}"
+        ],
+        "frame": true,
+        "height": 300,
+        "width": null,
+        "layout": "fit",
+        "closable": true,
+        "collapsible": true,
+        "title": "Chart Portlet"
+    },
+    "configAlternates": {
+        "draggable": "object"
+    },
+    "id": "ExtBox1-ext-gen22853",
+    "designerId": "977327a0-3283-421d-9c48-a3350e1bd166",
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "isPortlet",
+            "type": "boolean"
+        }
+    ],
+    "cn": [
+        {
+            "type": "chart",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "LineChart",
+                "height": null,
+                "width": null,
+                "shadow": false,
+                "animate": false,
+                "insetPadding": 20,
+                "store": "ChartStore"
+            },
+            "configAlternates": {
+                "animate": "boolean"
+            },
+            "designerId": "99ef7dde-db94-4ce4-a932-f96207e48126",
+            "cn": [
+                {
+                    "type": "numericaxis",
+                    "reference": {
+                        "name": "axes",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyNumericAxis",
+                        "fields": [
+                            "djia"
+                        ],
+                        "label": null,
+                        "position": "left",
+                        "title": "Dow Jones Average"
+                    },
+                    "designerId": "e44c9cf3-ff88-4743-970c-98d3ef626293"
+                },
+                {
+                    "type": "numericaxis",
+                    "reference": {
+                        "name": "axes",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyNumericAxis",
+                        "fields": [
+                            "sp500"
+                        ],
+                        "grid": false,
+                        "position": "right",
+                        "title": "S&P 500"
+                    },
+                    "configAlternates": {
+                        "grid": "boolean"
+                    },
+                    "designerId": "87f8c0cf-5faf-43c3-bf33-562153ce3b21"
+                },
+                {
+                    "type": "lineseries",
+                    "reference": {
+                        "name": "series",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyLineSeries",
+                        "designer|displayName": "Dow Jones line series",
+                        "xField": "name",
+                        "yField": [
+                            "djia"
+                        ],
+                        "fill": true,
+                        "showMarkers": false,
+                        "smooth": 3,
+                        "style": [
+                            "{",
+                            "    'stroke-width': 1,",
+                            "    stroke: 'rgb(148, 174, 10)'",
+                            "}"
+                        ]
+                    },
+                    "designerId": "335673f9-76f4-4d0f-a821-3dac97453d32"
+                },
+                {
+                    "type": "lineseries",
+                    "reference": {
+                        "name": "series",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyLineSeries",
+                        "designer|displayName": "S&P500 line series",
+                        "axis": "right",
+                        "xField": "name",
+                        "yField": [
+                            "sp500"
+                        ],
+                        "fill": false,
+                        "showMarkers": false,
+                        "smooth": 3,
+                        "style": [
+                            "{",
+                            "    'stroke-width': 1,",
+                            "     stroke: 'rgb(17, 95, 166)'",
+                            "} "
+                        ]
+                    },
+                    "designerId": "cb06f59d-ca46-440c-8f09-29cca328f19a"
+                },
+                {
+                    "type": "chartlegend",
+                    "reference": {
+                        "name": "legend",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyLegend"
+                    },
+                    "designerId": "cc28e734-5910-407d-9ef5-6ac8e3d8eaca"
+                }
+            ]
+        }
+    ]
+}

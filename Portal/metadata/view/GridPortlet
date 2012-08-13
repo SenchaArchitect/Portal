@@ -1,0 +1,147 @@
+{
+    "type": "gridpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "isPortlet": true,
+        "designer|userClassName": "GridPortlet",
+        "designer|userAlias": "gridportlet",
+        "cls": "x-portlet",
+        "draggable": [
+            "{moveOnDrag:false}"
+        ],
+        "frame": true,
+        "height": 300,
+        "width": null,
+        "closable": true,
+        "collapsible": true,
+        "title": "Grid Portlet",
+        "store": "GridStore"
+    },
+    "configAlternates": {
+        "draggable": "object"
+    },
+    "id": "ExtBox1-ext-gen9622",
+    "designerId": "25b71f6f-d826-4bff-80e9-b35ec194f045",
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "isPortlet",
+            "type": "boolean"
+        }
+    ],
+    "cn": [
+        {
+            "type": "gridview",
+            "reference": {
+                "name": "viewConfig",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyGridView"
+            },
+            "designerId": "ca2c1991-a9e9-416f-b4eb-869bc4db9cbf"
+        },
+        {
+            "type": "gridcolumn",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyColumn1",
+                "dataIndex": "company",
+                "flex": 1,
+                "text": "Company"
+            },
+            "designerId": "55d1720e-8677-4184-99ce-ef18f01f822e"
+        },
+        {
+            "type": "numbercolumn",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyNumberColumn1",
+                "width": 75,
+                "dataIndex": "change",
+                "text": "Change"
+            },
+            "designerId": "7eb0a0cd-6958-46d9-bc6f-aafafb9fa383",
+            "cn": [
+                {
+                    "type": "basicfunction",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "renderer",
+                        "fn": "renderer",
+                        "designer|params": [
+                            "val"
+                        ],
+                        "implHandler": [
+                            "if (val > 0) {",
+                            "    return '<span style=\"color:green;\">' + val + '</span>';",
+                            "} else if (val < 0) {",
+                            "    return '<span style=\"color:red;\">' + val + '</span>';",
+                            "}",
+                            "return val;"
+                        ]
+                    },
+                    "designerId": "26144511-a6a1-42a9-bbd5-96d843ed9343"
+                }
+            ]
+        },
+        {
+            "type": "numbercolumn",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyNumberColumn2",
+                "width": 75,
+                "dataIndex": "pctChange",
+                "text": "% Change"
+            },
+            "designerId": "9d8a0d7e-ad01-436c-bf61-e9e286d41309",
+            "cn": [
+                {
+                    "type": "basicfunction",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "renderer",
+                        "fn": "renderer",
+                        "designer|params": [
+                            "val"
+                        ],
+                        "implHandler": [
+                            "if (val > 0) {",
+                            "    return '<span style=\"color:green;\">' + val + '%</span>';",
+                            "} else if (val < 0) {",
+                            "    return '<span style=\"color:red;\">' + val + '%</span>';",
+                            "}",
+                            "return val;"
+                        ]
+                    },
+                    "designerId": "5e62b703-a761-4c82-b28b-6a7e3eb6f3e3"
+                }
+            ]
+        }
+    ]
+}

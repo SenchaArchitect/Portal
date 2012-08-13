@@ -1,0 +1,236 @@
+{
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "PortalPanel",
+        "designer|userAlias": "portalpanel",
+        "cls": "x-portal",
+        "height": null,
+        "width": null,
+        "autoScroll": true,
+        "layout": "column",
+        "bodyCls": "x-portal-body",
+        "manageHeight": false,
+        "title": null
+    },
+    "id": "ExtBox1-ext-gen8249",
+    "designerId": "ad317224-0098-4201-bb56-938cce221502",
+    "cn": [
+        {
+            "type": "customevent",
+            "reference": {
+                "name": "customEvents",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "CustomEvent",
+                "name": "validatedrop",
+                "params": [
+                    "e"
+                ]
+            },
+            "designerId": "c3a736d2-6c83-4017-9b7b-ca84d47a9ae4"
+        },
+        {
+            "type": "customevent",
+            "reference": {
+                "name": "customEvents",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "CustomEvent1",
+                "name": "beforedragover",
+                "params": [
+                    "e"
+                ]
+            },
+            "designerId": "ed94a6ba-40ac-4475-8781-c3e8c07eefe9"
+        },
+        {
+            "type": "customevent",
+            "reference": {
+                "name": "customEvents",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "CustomEvent2",
+                "name": "dragover",
+                "params": [
+                    "e"
+                ]
+            },
+            "designerId": "4d00ccab-5bd5-4bfc-8afb-9e8fea8439a8"
+        },
+        {
+            "type": "customevent",
+            "reference": {
+                "name": "customEvents",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "CustomEvent3",
+                "name": "beforedrop",
+                "params": [
+                    "e"
+                ]
+            },
+            "designerId": "ccf03c6d-a12e-4bdb-8eb5-236f5f5b2ef7"
+        },
+        {
+            "type": "customevent",
+            "reference": {
+                "name": "customEvents",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "CustomEvent4",
+                "name": "drop",
+                "params": [
+                    "e"
+                ]
+            },
+            "designerId": "ac08443e-e909-4f7e-b249-3c65fd255efc"
+        },
+        {
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|columnWidth": 0.33333,
+                "designer|userClassName": "MyContainer",
+                "designer|displayName": "Column 1",
+                "cls": "x-portal-column",
+                "layout": "anchor"
+            },
+            "designerId": "cdaed083-f599-4b58-889a-09a41d22a808",
+            "cn": [
+                {
+                    "type": "linkedinstance",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|displayName": "grid",
+                        "layout|anchor": "100%"
+                    },
+                    "designerId": "2261018c-5165-45b7-a0b8-54ad1df21db3",
+                    "masterInstanceId": "ExtBox1-ext-gen9622"
+                },
+                {
+                    "type": "linkedinstance",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|displayName": "simple",
+                        "html": [
+                            "<div class=\"portlet-content\"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed metus nibh \\nsodales a, porta at, vulputate eget, dui. Pellentesque ut nisl. Maecenas tortor turpis, interdum non, sodales\\nnon, iaculis ac, lacus. Vestibulum auctor, tortor quis iaculis malesuada, libero lectus bibendum purus, sit amet\\ntincidunt quam turpis vel lacus. In pellentesque nisl non sem. Suspendisse nunc sem, pretium eget, cursus a, \\nfringilla.</p></div>"
+                        ]
+                    },
+                    "designerId": "ea3934af-6b8e-4011-9dc1-3d5790b09d44",
+                    "masterInstanceId": "ExtBox1-ext-gen26509"
+                }
+            ]
+        },
+        {
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|columnWidth": 0.33333,
+                "designer|userClassName": "MyContainer",
+                "designer|displayName": "Column 2",
+                "cls": "x-portal-column",
+                "layout": "anchor"
+            },
+            "designerId": "072cbc92-192d-4f9c-9c26-c7e025a37519",
+            "cn": [
+                {
+                    "type": "linkedinstance",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|displayName": "simple",
+                        "html": [
+                            "<div class=\"portlet-content\"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed metus nibh \\nsodales a, porta at, vulputate eget, dui. Pellentesque ut nisl. Maecenas tortor turpis, interdum non, sodales\\nnon, iaculis ac, lacus. Vestibulum auctor, tortor quis iaculis malesuada, libero lectus bibendum purus, sit amet\\ntincidunt quam turpis vel lacus. In pellentesque nisl non sem. Suspendisse nunc sem, pretium eget, cursus a, \\nfringilla.</p></div>"
+                        ]
+                    },
+                    "designerId": "182b43dc-5b00-4f6b-81d6-be8610596138",
+                    "masterInstanceId": "ExtBox1-ext-gen26509"
+                }
+            ]
+        },
+        {
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|columnWidth": 0.33333,
+                "designer|userClassName": "MyContainer",
+                "designer|displayName": "Column 3",
+                "cls": "x-portal-column",
+                "layout": "anchor"
+            },
+            "designerId": "0524023a-7b76-4246-b46b-eeb16da65941",
+            "cn": [
+                {
+                    "type": "linkedinstance",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|displayName": "chart",
+                        "layout|anchor": "100%"
+                    },
+                    "designerId": "22fe8a3a-4434-416d-a5c2-1ac4989d0e71",
+                    "masterInstanceId": "ExtBox1-ext-gen22853"
+                }
+            ]
+        },
+        {
+            "type": "basiceventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "onPanelAfterRender",
+                "fn": "onPanelAfterRender",
+                "implHandler": [
+                    "this.dd = Ext.create('MyApp.view.PortalDropZone', this, this.dropConfig);"
+                ],
+                "name": "afterrender",
+                "scope": "me"
+            },
+            "designerId": "40cfc8ce-f17a-4ef6-8f40-9787ebb6ebdd"
+        }
+    ]
+}
