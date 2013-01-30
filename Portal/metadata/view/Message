@@ -1,19 +1,18 @@
 {
-    "type": "component",
+    "type": "Ext.Component",
     "reference": {
         "name": "items",
         "type": "array"
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "Message",
-        "designer|userAlias": "message",
         "autoRender": true,
         "cls": "app-msg",
         "height": null,
         "hidden": true,
-        "width": null
+        "width": null,
+        "designer|userClassName": "Message",
+        "designer|userAlias": "message"
     },
-    "id": "ExtBox1-ext-gen30797",
     "designerId": "6a1fc924-4a4e-4b5c-b873-d5df8da26ad9"
 }
