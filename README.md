@@ -3,4 +3,4 @@ Ext Portal
 
 The Ext JS "Portal" example written with Sencha Architect
 
-[Portal.xda (build: 550)](https://github.com/downloads/SenchaArchitect/Portal/Portal.xda) - Architect archive
+[Portal.xda (build: 550)](http://cdn.sencha.com/architect/examples/portal/Portal.xda) - Architect archive
