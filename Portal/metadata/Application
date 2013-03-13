@@ -1,5 +1,5 @@
 {
-    "type": "application",
+    "type": "Ext.app.Application",
     "reference": {
         "name": "items",
         "type": "array"
@@ -11,11 +11,10 @@
             "GridStore"
         ],
         "autoCreateViewport": true,
-        "name": "MyApp",
         "controllers": [
             "MyController"
-        ]
+        ],
+        "name": "MyApp"
     },
-    "id": "ExtBox1-ext-gen1549",
     "designerId": "application"
 }

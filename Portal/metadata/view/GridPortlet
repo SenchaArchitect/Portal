@@ -1,5 +1,5 @@
 {
-    "type": "gridpanel",
+    "type": "Ext.grid.Panel",
     "reference": {
         "name": "items",
         "type": "array"
@@ -7,8 +7,6 @@
     "codeClass": null,
     "userConfig": {
         "isPortlet": true,
-        "designer|userClassName": "GridPortlet",
-        "designer|userAlias": "gridportlet",
         "cls": "x-portlet",
         "draggable": [
             "{moveOnDrag:false}"
@@ -16,6 +14,8 @@
         "frame": true,
         "height": 300,
         "width": null,
+        "designer|userClassName": "GridPortlet",
+        "designer|userAlias": "gridportlet",
         "closable": true,
         "collapsible": true,
         "title": "Grid Portlet",
@@ -24,7 +24,6 @@
     "configAlternates": {
         "draggable": "object"
     },
-    "id": "ExtBox1-ext-gen9622",
     "designerId": "25b71f6f-d826-4bff-80e9-b35ec194f045",
     "customConfigs": [
         {
@@ -35,7 +34,7 @@
     ],
     "cn": [
         {
-            "type": "gridview",
+            "type": "Ext.grid.View",
             "reference": {
                 "name": "viewConfig",
                 "type": "object"
@@ -47,7 +46,7 @@
             "designerId": "ca2c1991-a9e9-416f-b4eb-869bc4db9cbf"
         },
         {
-            "type": "gridcolumn",
+            "type": "Ext.grid.column.Column",
             "reference": {
                 "name": "columns",
                 "type": "array"
@@ -56,21 +55,21 @@
             "userConfig": {
                 "designer|userClassName": "MyColumn1",
                 "dataIndex": "company",
-                "flex": 1,
-                "text": "Company"
+                "text": "Company",
+                "flex": 1
             },
             "designerId": "55d1720e-8677-4184-99ce-ef18f01f822e"
         },
         {
-            "type": "numbercolumn",
+            "type": "Ext.grid.column.Number",
             "reference": {
                 "name": "columns",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyNumberColumn1",
                 "width": 75,
+                "designer|userClassName": "MyNumberColumn1",
                 "dataIndex": "change",
                 "text": "Change"
             },
@@ -103,15 +102,15 @@
             ]
         },
         {
-            "type": "numbercolumn",
+            "type": "Ext.grid.column.Number",
             "reference": {
                 "name": "columns",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyNumberColumn2",
                 "width": 75,
+                "designer|userClassName": "MyNumberColumn2",
                 "dataIndex": "pctChange",
                 "text": "% Change"
             },

@@ -1,23 +1,24 @@
 {
-    "type": "panel",
+    "type": "Ext.panel.Panel",
     "reference": {
         "name": "items",
         "type": "array"
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "PortalPanel",
-        "designer|userAlias": "portalpanel",
         "cls": "x-portal",
         "height": null,
         "width": null,
+        "designer|userClassName": "PortalPanel",
+        "designer|userAlias": "portalpanel",
         "autoScroll": true,
         "layout": "column",
-        "bodyCls": "x-portal-body",
+        "bodyCls": [
+            "x-portal-body"
+        ],
         "manageHeight": false,
         "title": null
     },
-    "id": "ExtBox1-ext-gen8249",
     "designerId": "ad317224-0098-4201-bb56-938cce221502",
     "cn": [
         {
@@ -101,7 +102,7 @@
             "designerId": "ac08443e-e909-4f7e-b249-3c65fd255efc"
         },
         {
-            "type": "container",
+            "type": "Ext.container.Container",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -109,9 +110,9 @@
             "codeClass": null,
             "userConfig": {
                 "layout|columnWidth": 0.33333,
+                "cls": "x-portal-column",
                 "designer|userClassName": "MyContainer",
                 "designer|displayName": "Column 1",
-                "cls": "x-portal-column",
                 "layout": "anchor"
             },
             "designerId": "cdaed083-f599-4b58-889a-09a41d22a808",
@@ -128,7 +129,7 @@
                         "layout|anchor": "100%"
                     },
                     "designerId": "2261018c-5165-45b7-a0b8-54ad1df21db3",
-                    "masterInstanceId": "ExtBox1-ext-gen9622"
+                    "masterInstanceId": "25b71f6f-d826-4bff-80e9-b35ec194f045"
                 },
                 {
                     "type": "linkedinstance",
@@ -138,18 +139,18 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|displayName": "simple",
                         "html": [
                             "<div class=\"portlet-content\"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed metus nibh \\nsodales a, porta at, vulputate eget, dui. Pellentesque ut nisl. Maecenas tortor turpis, interdum non, sodales\\nnon, iaculis ac, lacus. Vestibulum auctor, tortor quis iaculis malesuada, libero lectus bibendum purus, sit amet\\ntincidunt quam turpis vel lacus. In pellentesque nisl non sem. Suspendisse nunc sem, pretium eget, cursus a, \\nfringilla.</p></div>"
-                        ]
+                        ],
+                        "designer|displayName": "simple"
                     },
                     "designerId": "ea3934af-6b8e-4011-9dc1-3d5790b09d44",
-                    "masterInstanceId": "ExtBox1-ext-gen26509"
+                    "masterInstanceId": "1eea5877-acbb-4edc-8e58-ca94bcdf7f70"
                 }
             ]
         },
         {
-            "type": "container",
+            "type": "Ext.container.Container",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -157,9 +158,9 @@
             "codeClass": null,
             "userConfig": {
                 "layout|columnWidth": 0.33333,
+                "cls": "x-portal-column",
                 "designer|userClassName": "MyContainer",
                 "designer|displayName": "Column 2",
-                "cls": "x-portal-column",
                 "layout": "anchor"
             },
             "designerId": "072cbc92-192d-4f9c-9c26-c7e025a37519",
@@ -172,18 +173,18 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|displayName": "simple",
                         "html": [
                             "<div class=\"portlet-content\"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed metus nibh \\nsodales a, porta at, vulputate eget, dui. Pellentesque ut nisl. Maecenas tortor turpis, interdum non, sodales\\nnon, iaculis ac, lacus. Vestibulum auctor, tortor quis iaculis malesuada, libero lectus bibendum purus, sit amet\\ntincidunt quam turpis vel lacus. In pellentesque nisl non sem. Suspendisse nunc sem, pretium eget, cursus a, \\nfringilla.</p></div>"
-                        ]
+                        ],
+                        "designer|displayName": "simple"
                     },
                     "designerId": "182b43dc-5b00-4f6b-81d6-be8610596138",
-                    "masterInstanceId": "ExtBox1-ext-gen26509"
+                    "masterInstanceId": "1eea5877-acbb-4edc-8e58-ca94bcdf7f70"
                 }
             ]
         },
         {
-            "type": "container",
+            "type": "Ext.container.Container",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -191,9 +192,9 @@
             "codeClass": null,
             "userConfig": {
                 "layout|columnWidth": 0.33333,
+                "cls": "x-portal-column",
                 "designer|userClassName": "MyContainer",
                 "designer|displayName": "Column 3",
-                "cls": "x-portal-column",
                 "layout": "anchor"
             },
             "designerId": "0524023a-7b76-4246-b46b-eeb16da65941",
@@ -210,7 +211,7 @@
                         "layout|anchor": "100%"
                     },
                     "designerId": "22fe8a3a-4434-416d-a5c2-1ac4989d0e71",
-                    "masterInstanceId": "ExtBox1-ext-gen22853"
+                    "masterInstanceId": "977327a0-3283-421d-9c48-a3350e1bd166"
                 }
             ]
         },
