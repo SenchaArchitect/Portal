@@ -18,7 +18,6 @@
         "designer|userClassName": "PortalDropZone",
         "extend": "Ext.dd.DropTarget"
     },
-    "id": "ExtBox1-ext-gen16527",
     "designerId": "9d943c89-6b1c-4ed2-bca8-9156d97c86df",
     "customConfigs": [
         {

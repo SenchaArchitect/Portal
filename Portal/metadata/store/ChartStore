@@ -6,15 +6,14 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "ChartStore",
         "autoLoad": true,
-        "storeId": "MyJsonStore"
+        "storeId": "MyJsonStore",
+        "designer|userClassName": "ChartStore"
     },
-    "id": "ExtBox1-ext-gen23460",
     "designerId": "a6802d85-2611-482b-ac91-6d929afdc683",
     "cn": [
         {
-            "type": "ajaxproxy",
+            "type": "Ext.data.proxy.Ajax",
             "reference": {
                 "name": "proxy",
                 "type": "object"
@@ -27,7 +26,7 @@
             "designerId": "375d87c8-8311-4289-8646-9d111a663943",
             "cn": [
                 {
-                    "type": "jsonreader",
+                    "type": "Ext.data.reader.Json",
                     "reference": {
                         "name": "reader",
                         "type": "object"
@@ -41,41 +40,41 @@
             ]
         },
         {
-            "type": "datafield",
+            "type": "Ext.data.Field",
             "reference": {
                 "name": "fields",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyField",
-                "name": "name"
+                "name": "name",
+                "designer|userClassName": "MyField"
             },
             "designerId": "080a6244-79b8-41f2-8a79-e885c897d453"
         },
         {
-            "type": "datafield",
+            "type": "Ext.data.Field",
             "reference": {
                 "name": "fields",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyField1",
-                "name": "sp500"
+                "name": "sp500",
+                "designer|userClassName": "MyField1"
             },
             "designerId": "3c60a87f-0da3-4268-bb14-0dcd77a20ec8"
         },
         {
-            "type": "datafield",
+            "type": "Ext.data.Field",
             "reference": {
                 "name": "fields",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyField2",
-                "name": "djia"
+                "name": "djia",
+                "designer|userClassName": "MyField2"
             },
             "designerId": "244802d5-77a7-47b0-a789-52ee11e2e521"
         }

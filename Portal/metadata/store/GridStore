@@ -6,15 +6,14 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "GridStore",
         "autoLoad": true,
-        "storeId": "MyArrayStore"
+        "storeId": "MyArrayStore",
+        "designer|userClassName": "GridStore"
     },
-    "id": "ExtBox1-ext-gen8375",
     "designerId": "8fb8a9f6-1c13-42ac-9d3d-16c96b24799e",
     "cn": [
         {
-            "type": "ajaxproxy",
+            "type": "Ext.data.proxy.Ajax",
             "reference": {
                 "name": "proxy",
                 "type": "object"
@@ -27,7 +26,7 @@
             "designerId": "fa82974d-2f1f-4d0e-83a5-cd2cd70bc6b0",
             "cn": [
                 {
-                    "type": "arrayreader",
+                    "type": "Ext.data.reader.Array",
                     "reference": {
                         "name": "reader",
                         "type": "object"
@@ -41,43 +40,43 @@
             ]
         },
         {
-            "type": "datafield",
+            "type": "Ext.data.Field",
             "reference": {
                 "name": "fields",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyField3",
-                "name": "company"
+                "name": "company",
+                "designer|userClassName": "MyField3"
             },
             "designerId": "4f1bcb55-aca3-439f-9728-6275ec326519"
         },
         {
-            "type": "datafield",
+            "type": "Ext.data.Field",
             "reference": {
                 "name": "fields",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyField4",
                 "name": "change",
-                "type": "float"
+                "type": "float",
+                "designer|userClassName": "MyField4"
             },
             "designerId": "0549e873-3c75-494f-ae7c-0ce385691146"
         },
         {
-            "type": "datafield",
+            "type": "Ext.data.Field",
             "reference": {
                 "name": "fields",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyField5",
                 "name": "pctChange",
-                "type": "float"
+                "type": "float",
+                "designer|userClassName": "MyField5"
             },
             "designerId": "87bb7cf4-16d1-41e1-817a-7233441095cf"
         }

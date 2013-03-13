@@ -1,12 +1,11 @@
 {
-    "type": "controller",
+    "type": "Ext.app.Controller",
     "reference": {
         "name": "items",
         "type": "array"
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "MyController",
         "views": [
             "Portal",
             "PortalPanel",
@@ -14,9 +13,9 @@
             "ChartPortlet",
             "GridPortlet",
             "Message"
-        ]
+        ],
+        "designer|userClassName": "MyController"
     },
-    "id": "ExtBox1-ext-gen25075",
     "designerId": "6a0acaee-7d2e-4004-b317-0ab61506e797",
     "cn": [
         {
