@@ -6,6 +6,7 @@
     },
     "codeClass": null,
     "userConfig": {
+        "designer|userClassName": "css",
         "url": "resources/css/portal.css"
     },
     "designerId": "c2dd5573-0b00-4902-aa47-117a2e5ee515"

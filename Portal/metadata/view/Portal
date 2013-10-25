@@ -7,8 +7,8 @@
     "codeClass": null,
     "userConfig": {
         "container|padding": "0 5 5 5",
-        "designer|userClassName": "Portal",
         "designer|initialView": true,
+        "designer|userClassName": "Portal",
         "layout": "border"
     },
     "designerId": "93836fcc-3d24-4393-b45f-254d04cec350",
@@ -21,14 +21,13 @@
             },
             "codeClass": null,
             "userConfig": {
-                "layout|region": "north",
                 "cls": "app-header",
                 "height": 40,
                 "html": [
                     "Ext Portal"
                 ],
                 "id": null,
-                "designer|userClassName": "MyComponent"
+                "layout|region": "north"
             },
             "designerId": "af15ce85-cdec-490b-a170-d3e4b847b447"
         },
@@ -40,17 +39,16 @@
             },
             "codeClass": null,
             "userConfig": {
-                "layout|region": "west",
-                "layout|split": true,
+                "collapsible": true,
                 "container|animate": true,
                 "id": "app-options",
+                "layout": "accordion",
+                "layout|region": "west",
+                "layout|split": true,
                 "maxWidth": 400,
                 "minWidth": 150,
-                "width": 200,
-                "designer|userClassName": "MyPanel",
-                "layout": "accordion",
-                "collapsible": true,
-                "title": "Options"
+                "title": "Options",
+                "width": 200
             },
             "designerId": "a06f4909-53ac-4373-a2d5-9c42b7f26a2d",
             "cn": [
@@ -62,6 +60,7 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "autoScroll": true,
                         "html": [
                             "<div class=\"portlet-content\"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed metus nibh ",
                             "sodales a, porta at, vulputate eget, dui. Pellentesque ut nisl. Maecenas tortor turpis, interdum non, sodales",
@@ -69,8 +68,6 @@
                             "tincidunt quam turpis vel lacus. In pellentesque nisl non sem. Suspendisse nunc sem, pretium eget, cursus a, ",
                             "fringilla.</p></div>"
                         ],
-                        "designer|userClassName": "MyPanel1",
-                        "autoScroll": true,
                         "iconCls": "nav",
                         "title": "Navigation"
                     },
@@ -84,6 +81,8 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "autoScroll": true,
+                        "collapsed": true,
                         "html": [
                             "<div class=\"portlet-content\"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed metus nibh ",
                             "sodales a, porta at, vulputate eget, dui. Pellentesque ut nisl. Maecenas tortor turpis, interdum non, sodales",
@@ -91,9 +90,6 @@
                             "tincidunt quam turpis vel lacus. In pellentesque nisl non sem. Suspendisse nunc sem, pretium eget, cursus a, ",
                             "fringilla.</p></div>"
                         ],
-                        "designer|userClassName": "MyPanel2",
-                        "autoScroll": true,
-                        "collapsed": true,
                         "iconCls": "settings",
                         "title": "Settings"
                     },

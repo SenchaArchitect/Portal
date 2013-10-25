@@ -6,18 +6,18 @@
     },
     "codeClass": null,
     "userConfig": {
-        "cls": "x-portal",
-        "height": null,
-        "width": null,
-        "designer|userClassName": "PortalPanel",
-        "designer|userAlias": "portalpanel",
         "autoScroll": true,
-        "layout": "column",
         "bodyCls": [
             "x-portal-body"
         ],
+        "cls": "x-portal",
+        "designer|userAlias": "portalpanel",
+        "designer|userClassName": "PortalPanel",
+        "height": null,
+        "layout": "column",
         "manageHeight": false,
-        "title": null
+        "title": null,
+        "width": null
     },
     "designerId": "ad317224-0098-4201-bb56-938cce221502",
     "cn": [
@@ -29,7 +29,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "CustomEvent",
                 "name": "validatedrop",
                 "params": [
                     "e"
@@ -45,7 +44,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "CustomEvent1",
                 "name": "beforedragover",
                 "params": [
                     "e"
@@ -61,7 +59,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "CustomEvent2",
                 "name": "dragover",
                 "params": [
                     "e"
@@ -77,7 +74,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "CustomEvent3",
                 "name": "beforedrop",
                 "params": [
                     "e"
@@ -93,7 +89,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "CustomEvent4",
                 "name": "drop",
                 "params": [
                     "e"
@@ -109,11 +104,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "layout|columnWidth": 0.33333,
                 "cls": "x-portal-column",
-                "designer|userClassName": "MyContainer",
                 "designer|displayName": "Column 1",
-                "layout": "anchor"
+                "layout": "anchor",
+                "layout|columnWidth": 0.33333
             },
             "designerId": "cdaed083-f599-4b58-889a-09a41d22a808",
             "cn": [
@@ -139,10 +133,10 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "designer|displayName": "simple",
                         "html": [
                             "<div class=\"portlet-content\"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed metus nibh \\nsodales a, porta at, vulputate eget, dui. Pellentesque ut nisl. Maecenas tortor turpis, interdum non, sodales\\nnon, iaculis ac, lacus. Vestibulum auctor, tortor quis iaculis malesuada, libero lectus bibendum purus, sit amet\\ntincidunt quam turpis vel lacus. In pellentesque nisl non sem. Suspendisse nunc sem, pretium eget, cursus a, \\nfringilla.</p></div>"
-                        ],
-                        "designer|displayName": "simple"
+                        ]
                     },
                     "designerId": "ea3934af-6b8e-4011-9dc1-3d5790b09d44",
                     "masterInstanceId": "1eea5877-acbb-4edc-8e58-ca94bcdf7f70"
@@ -157,11 +151,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "layout|columnWidth": 0.33333,
                 "cls": "x-portal-column",
-                "designer|userClassName": "MyContainer",
                 "designer|displayName": "Column 2",
-                "layout": "anchor"
+                "layout": "anchor",
+                "layout|columnWidth": 0.33333
             },
             "designerId": "072cbc92-192d-4f9c-9c26-c7e025a37519",
             "cn": [
@@ -173,10 +166,10 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "designer|displayName": "simple",
                         "html": [
                             "<div class=\"portlet-content\"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed metus nibh \\nsodales a, porta at, vulputate eget, dui. Pellentesque ut nisl. Maecenas tortor turpis, interdum non, sodales\\nnon, iaculis ac, lacus. Vestibulum auctor, tortor quis iaculis malesuada, libero lectus bibendum purus, sit amet\\ntincidunt quam turpis vel lacus. In pellentesque nisl non sem. Suspendisse nunc sem, pretium eget, cursus a, \\nfringilla.</p></div>"
-                        ],
-                        "designer|displayName": "simple"
+                        ]
                     },
                     "designerId": "182b43dc-5b00-4f6b-81d6-be8610596138",
                     "masterInstanceId": "1eea5877-acbb-4edc-8e58-ca94bcdf7f70"
@@ -191,11 +184,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "layout|columnWidth": 0.33333,
                 "cls": "x-portal-column",
-                "designer|userClassName": "MyContainer",
                 "designer|displayName": "Column 3",
-                "layout": "anchor"
+                "layout": "anchor",
+                "layout|columnWidth": 0.33333
             },
             "designerId": "0524023a-7b76-4246-b46b-eeb16da65941",
             "cn": [
@@ -223,7 +215,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onPanelAfterRender",
                 "fn": "onPanelAfterRender",
                 "implHandler": [
                     "this.dd = Ext.create('MyApp.view.PortalDropZone', this, this.dropConfig);"

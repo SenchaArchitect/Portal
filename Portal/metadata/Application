@@ -6,15 +6,15 @@
     },
     "codeClass": null,
     "userConfig": {
-        "stores": [
-            "ChartStore",
-            "GridStore"
-        ],
         "autoCreateViewport": true,
         "controllers": [
             "MyController"
         ],
-        "name": "MyApp"
+        "name": "MyApp",
+        "stores": [
+            "ChartStore",
+            "GridStore"
+        ]
     },
     "designerId": "application"
 }

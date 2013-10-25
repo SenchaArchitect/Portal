@@ -1,114 +1,38 @@
 {
     "name": "Portal",
     "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "4.0.0.203",
+            "frameworkVersion": "4.2.1.883"
+        },
         "urlPrefix": "http://localhost/SenchaArchitect/Portal/Portal",
         "spacesToIndent": 4,
         "exportPath": "",
         "sdkPath": "",
         "lineEnding": "LF",
         "genTimestamps": false,
-        "cacheBust": false
-    },
-    "xdsVersion": "2.2.0",
-    "xdsBuild": 840,
-    "schemaVersion": 1,
-    "upgradeVersion": 210000000499,
-    "framework": "ext41",
-    "topInstanceFileMap": {
-        "93836fcc-3d24-4393-b45f-254d04cec350": {
-            "paths": [
-                "metadata/view/Portal",
-                "app/view/override/Portal.js",
-                "app/view/Portal.js",
-                "app/view/Viewport.js"
-            ],
-            "className": "Portal"
+        "cacheBust": false,
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Auto Expand",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            }
         },
-        "7d7dafb5-094a-4ac0-80f6-e606c50018d9": {
-            "paths": [
-                "metadata/resource/Library"
-            ],
-            "className": "Library"
-        },
-        "c2dd5573-0b00-4902-aa47-117a2e5ee515": {
-            "paths": [
-                "metadata/resource/css"
-            ],
-            "className": "css"
-        },
-        "ad317224-0098-4201-bb56-938cce221502": {
-            "paths": [
-                "metadata/view/PortalPanel",
-                "app/view/override/PortalPanel.js",
-                "app/view/PortalPanel.js"
-            ],
-            "className": "PortalPanel"
-        },
-        "9d943c89-6b1c-4ed2-bca8-9156d97c86df": {
-            "paths": [
-                "metadata/view/PortalDropZone",
-                "app/view/override/PortalDropZone.js",
-                "app/view/PortalDropZone.js"
-            ],
-            "className": "PortalDropZone"
-        },
-        "977327a0-3283-421d-9c48-a3350e1bd166": {
-            "paths": [
-                "metadata/view/ChartPortlet",
-                "app/view/override/ChartPortlet.js",
-                "app/view/ChartPortlet.js"
-            ],
-            "className": "ChartPortlet"
-        },
-        "a6802d85-2611-482b-ac91-6d929afdc683": {
-            "paths": [
-                "metadata/store/ChartStore",
-                "app/store/override/ChartStore.js",
-                "app/store/ChartStore.js"
-            ],
-            "className": "ChartStore"
-        },
-        "8fb8a9f6-1c13-42ac-9d3d-16c96b24799e": {
-            "paths": [
-                "metadata/store/GridStore",
-                "app/store/override/GridStore.js",
-                "app/store/GridStore.js"
-            ],
-            "className": "GridStore"
-        },
-        "25b71f6f-d826-4bff-80e9-b35ec194f045": {
-            "paths": [
-                "metadata/view/GridPortlet",
-                "app/view/override/GridPortlet.js",
-                "app/view/GridPortlet.js"
-            ],
-            "className": "GridPortlet"
-        },
-        "6a0acaee-7d2e-4004-b317-0ab61506e797": {
-            "paths": [
-                "metadata/controller/MyController",
-                "app/controller/override/MyController.js",
-                "app/controller/MyController.js"
-            ],
-            "className": "MyController"
-        },
-        "1eea5877-acbb-4edc-8e58-ca94bcdf7f70": {
-            "paths": [
-                "metadata/view/SimplePortlet",
-                "app/view/override/SimplePortlet.js",
-                "app/view/SimplePortlet.js"
-            ],
-            "className": "SimplePortlet"
-        },
-        "6a1fc924-4a4e-4b5c-b873-d5df8da26ad9": {
-            "paths": [
-                "metadata/view/Message",
-                "app/view/override/Message.js",
-                "app/view/Message.js"
-            ],
-            "className": "Message"
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true,
+        "lastBuildSelection": {
+            "value": "webBuild",
+            "display": "Build web app"
         }
     },
+    "xdsVersion": "3.0.0",
+    "xdsBuild": 1314,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000001,
+    "framework": "ext42",
     "viewOrderMap": {
         "view": [
             "93836fcc-3d24-4393-b45f-254d04cec350",
@@ -129,6 +53,7 @@
         "model": [],
         "resource": [
             "7d7dafb5-094a-4ac0-80f6-e606c50018d9",
+            "449de299-c28b-45c4-99be-8b2fa2b4802a",
             "c2dd5573-0b00-4902-aa47-117a2e5ee515"
         ],
         "app": [

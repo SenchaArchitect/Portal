@@ -6,20 +6,20 @@
     },
     "codeClass": null,
     "userConfig": {
-        "isPortlet": true,
+        "closable": true,
         "cls": "x-portlet",
+        "collapsible": true,
+        "designer|userAlias": "chartportlet",
+        "designer|userClassName": "ChartPortlet",
         "draggable": [
             "{moveOnDrag:false}"
         ],
         "frame": true,
         "height": 300,
-        "width": null,
-        "designer|userClassName": "ChartPortlet",
-        "designer|userAlias": "chartportlet",
+        "isPortlet": true,
         "layout": "fit",
-        "closable": true,
-        "collapsible": true,
-        "title": "Chart Portlet"
+        "title": "Chart Portlet",
+        "width": null
     },
     "configAlternates": {
         "draggable": "object"
@@ -42,11 +42,10 @@
             "codeClass": null,
             "userConfig": {
                 "height": null,
-                "width": null,
-                "designer|userClassName": "LineChart",
-                "shadow": false,
                 "insetPadding": 20,
-                "store": "ChartStore"
+                "shadow": false,
+                "store": "ChartStore",
+                "width": null
             },
             "configAlternates": {
                 "animate": "boolean"
@@ -65,8 +64,6 @@
                             "djia"
                         ],
                         "label": null,
-                        "designer|userClassName": "MyNumericAxis",
-                        "position": "left",
                         "title": "Dow Jones Average"
                     },
                     "designerId": "e44c9cf3-ff88-4743-970c-98d3ef626293"
@@ -82,7 +79,6 @@
                         "fields": [
                             "sp500"
                         ],
-                        "designer|userClassName": "MyNumericAxis",
                         "grid": false,
                         "position": "right",
                         "title": "S&P 500"
@@ -100,12 +96,10 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyLineSeries",
-                        "designer|displayName": "Dow Jones line series",
-                        "xField": "name",
-                        "yField": [
-                            "djia"
+                        "axis": [
+                            "left"
                         ],
+                        "designer|displayName": "Dow Jones line series",
                         "fill": true,
                         "showMarkers": false,
                         "smooth": 3,
@@ -114,6 +108,10 @@
                             "    'stroke-width': 1,",
                             "    stroke: 'rgb(148, 174, 10)'",
                             "}"
+                        ],
+                        "xField": "name",
+                        "yField": [
+                            "djia"
                         ]
                     },
                     "designerId": "335673f9-76f4-4d0f-a821-3dac97453d32"
@@ -126,13 +124,10 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyLineSeries",
-                        "designer|displayName": "S&P500 line series",
-                        "axis": "right",
-                        "xField": "name",
-                        "yField": [
-                            "sp500"
+                        "axis": [
+                            "right"
                         ],
+                        "designer|displayName": "S&P500 line series",
                         "showMarkers": false,
                         "smooth": 3,
                         "style": [
@@ -140,6 +135,10 @@
                             "    'stroke-width': 1,",
                             "     stroke: 'rgb(17, 95, 166)'",
                             "} "
+                        ],
+                        "xField": "name",
+                        "yField": [
+                            "sp500"
                         ]
                     },
                     "designerId": "cb06f59d-ca46-440c-8f09-29cca328f19a"
@@ -151,9 +150,6 @@
                         "type": "object"
                     },
                     "codeClass": null,
-                    "userConfig": {
-                        "designer|userClassName": "MyLegend"
-                    },
                     "designerId": "cc28e734-5910-407d-9ef5-6ac8e3d8eaca"
                 }
             ]

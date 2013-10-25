@@ -6,6 +6,7 @@
     },
     "codeClass": null,
     "userConfig": {
+        "containerScroll": true,
         "ddScrollConfig": [
             "{",
             "vthresh: 50,",
@@ -14,7 +15,6 @@
             "increment: 200",
             "}"
         ],
-        "containerScroll": true,
         "designer|userClassName": "PortalDropZone",
         "extend": "Ext.dd.DropTarget"
     },
@@ -40,12 +40,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "constructor",
-                "fn": "constructor",
                 "designer|params": [
                     "portal",
                     "cfg"
                 ],
+                "fn": "constructor",
                 "implHandler": [
                     "this.portal = portal;",
                     "this.callParent([portal.body, cfg]);",
@@ -63,8 +62,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "createEvent",
-                "fn": "createEvent",
                 "designer|params": [
                     "dd",
                     "e",
@@ -73,6 +70,7 @@
                     "c",
                     "pos"
                 ],
+                "fn": "createEvent",
                 "implHandler": [
                     "return {",
                     "    portal: this.portal,",
@@ -97,13 +95,12 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "notifyOver",
-                "fn": "notifyOver",
                 "designer|params": [
                     "dd",
                     "e",
                     "data"
                 ],
+                "fn": "notifyOver",
                 "implHandler": [
                     "var xy = e.getXY(),",
                     "    portal = this.portal,",
@@ -204,7 +201,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "notifyOut",
                 "fn": "notifyOut",
                 "implHandler": [
                     "delete this.grid;"
@@ -220,13 +216,12 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "notifyDrop",
-                "fn": "notifyDrop",
                 "designer|params": [
                     "dd",
                     "e",
                     "data"
                 ],
+                "fn": "notifyDrop",
                 "implHandler": [
                     "delete this.grid;",
                     "if (!this.lastPos) {",
@@ -284,7 +279,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "getGrid",
                 "fn": "getGrid",
                 "implHandler": [
                     "// internal cache of body and column coords",

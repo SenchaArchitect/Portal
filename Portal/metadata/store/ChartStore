@@ -7,8 +7,8 @@
     "codeClass": null,
     "userConfig": {
         "autoLoad": true,
-        "storeId": "MyJsonStore",
-        "designer|userClassName": "ChartStore"
+        "designer|userClassName": "ChartStore",
+        "storeId": "MyJsonStore"
     },
     "designerId": "a6802d85-2611-482b-ac91-6d929afdc683",
     "cn": [
@@ -20,7 +20,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyAjaxProxy",
                 "url": "resources/data/chart.json"
             },
             "designerId": "375d87c8-8311-4289-8646-9d111a663943",
@@ -32,9 +31,6 @@
                         "type": "object"
                     },
                     "codeClass": null,
-                    "userConfig": {
-                        "designer|userClassName": "MyJsonReader"
-                    },
                     "designerId": "1b6ae888-3aab-4af3-937b-70b8303c993b"
                 }
             ]
@@ -47,8 +43,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "name",
-                "designer|userClassName": "MyField"
+                "name": "name"
             },
             "designerId": "080a6244-79b8-41f2-8a79-e885c897d453"
         },
@@ -60,8 +55,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "sp500",
-                "designer|userClassName": "MyField1"
+                "name": "sp500"
             },
             "designerId": "3c60a87f-0da3-4268-bb14-0dcd77a20ec8"
         },
@@ -73,8 +67,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "djia",
-                "designer|userClassName": "MyField2"
+                "name": "djia"
             },
             "designerId": "244802d5-77a7-47b0-a789-52ee11e2e521"
         }

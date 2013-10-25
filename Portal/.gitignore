@@ -1,0 +1,7 @@
+.architect
+.sencha
+.sencha_backup
+ext
+build
+build.xml
+.idea

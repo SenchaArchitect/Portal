@@ -6,20 +6,20 @@
     },
     "codeClass": null,
     "userConfig": {
-        "isPortlet": true,
+        "closable": true,
         "cls": "x-portlet",
+        "collapsible": true,
+        "designer|userAlias": "gridportlet",
+        "designer|userClassName": "GridPortlet",
         "draggable": [
             "{moveOnDrag:false}"
         ],
         "frame": true,
         "height": 300,
-        "width": null,
-        "designer|userClassName": "GridPortlet",
-        "designer|userAlias": "gridportlet",
-        "closable": true,
-        "collapsible": true,
+        "isPortlet": true,
+        "store": "GridStore",
         "title": "Grid Portlet",
-        "store": "GridStore"
+        "width": null
     },
     "configAlternates": {
         "draggable": "object"
@@ -40,9 +40,6 @@
                 "type": "object"
             },
             "codeClass": null,
-            "userConfig": {
-                "designer|userClassName": "MyGridView"
-            },
             "designerId": "ca2c1991-a9e9-416f-b4eb-869bc4db9cbf"
         },
         {
@@ -53,10 +50,9 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyColumn1",
                 "dataIndex": "company",
-                "text": "Company",
-                "flex": 1
+                "flex": 1,
+                "text": "Company"
             },
             "designerId": "55d1720e-8677-4184-99ce-ef18f01f822e"
         },
@@ -68,10 +64,9 @@
             },
             "codeClass": null,
             "userConfig": {
-                "width": 75,
-                "designer|userClassName": "MyNumberColumn1",
                 "dataIndex": "change",
-                "text": "Change"
+                "text": "Change",
+                "width": 75
             },
             "designerId": "7eb0a0cd-6958-46d9-bc6f-aafafb9fa383",
             "cn": [
@@ -83,11 +78,10 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "renderer",
-                        "fn": "renderer",
                         "designer|params": [
                             "val"
                         ],
+                        "fn": "renderer",
                         "implHandler": [
                             "if (val > 0) {",
                             "    return '<span style=\"color:green;\">' + val + '</span>';",
@@ -109,10 +103,9 @@
             },
             "codeClass": null,
             "userConfig": {
-                "width": 75,
-                "designer|userClassName": "MyNumberColumn2",
                 "dataIndex": "pctChange",
-                "text": "% Change"
+                "text": "% Change",
+                "width": 75
             },
             "designerId": "9d8a0d7e-ad01-436c-bf61-e9e286d41309",
             "cn": [
@@ -124,11 +117,10 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "renderer",
-                        "fn": "renderer",
                         "designer|params": [
                             "val"
                         ],
+                        "fn": "renderer",
                         "implHandler": [
                             "if (val > 0) {",
                             "    return '<span style=\"color:green;\">' + val + '%</span>';",

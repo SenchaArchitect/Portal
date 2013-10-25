@@ -1,0 +1,27 @@
+{
+    "type": "neptunethemeresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyNeptuneTheme"
+    },
+    "designerId": "449de299-c28b-45c4-99be-8b2fa2b4802a",
+    "storage": {
+        "needsCompile": false,
+        "nameIndex": 1,
+        "varData": {
+            "Ext.layout.container.Border": {
+                "globalVars": [
+                    {
+                        "name": "border-layout-ct-background-color",
+                        "enabled": true,
+                        "value": "mix($base-light-color, $neutral-light-color, 30%)"
+                    }
+                ]
+            }
+        }
+    }
+}

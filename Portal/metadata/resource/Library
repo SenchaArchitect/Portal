@@ -6,7 +6,10 @@
     },
     "codeClass": null,
     "userConfig": {
-        "debug": true
+        "basePath": "ext/",
+        "debug": true,
+        "designer|userClassName": "Library",
+        "theme": "MyNeptuneTheme"
     },
     "designerId": "7d7dafb5-094a-4ac0-80f6-e606c50018d9"
 }

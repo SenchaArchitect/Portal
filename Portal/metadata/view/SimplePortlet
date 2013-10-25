@@ -6,19 +6,19 @@
     },
     "codeClass": null,
     "userConfig": {
-        "isPortlet": true,
+        "closable": true,
         "cls": "x-portlet",
+        "collapsible": true,
+        "designer|userAlias": "simpleportlet",
+        "designer|userClassName": "SimplePortlet",
         "draggable": [
             "{moveOnDrag:false}"
         ],
         "frame": true,
         "height": null,
-        "width": null,
-        "designer|userClassName": "SimplePortlet",
-        "designer|userAlias": "simpleportlet",
-        "closable": true,
-        "collapsible": true,
-        "title": "Portlet"
+        "isPortlet": true,
+        "title": "Portlet",
+        "width": null
     },
     "configAlternates": {
         "draggable": "object"

@@ -8,11 +8,11 @@
     "userConfig": {
         "autoRender": true,
         "cls": "app-msg",
+        "designer|userAlias": "message",
+        "designer|userClassName": "Message",
         "height": null,
         "hidden": true,
-        "width": null,
-        "designer|userClassName": "Message",
-        "designer|userAlias": "message"
+        "width": null
     },
     "designerId": "6a1fc924-4a4e-4b5c-b873-d5df8da26ad9"
 }

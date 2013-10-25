@@ -7,8 +7,8 @@
     "codeClass": null,
     "userConfig": {
         "autoLoad": true,
-        "storeId": "MyArrayStore",
-        "designer|userClassName": "GridStore"
+        "designer|userClassName": "GridStore",
+        "storeId": "MyArrayStore"
     },
     "designerId": "8fb8a9f6-1c13-42ac-9d3d-16c96b24799e",
     "cn": [
@@ -20,7 +20,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyAjaxProxy1",
                 "url": "resources/data/grid.json"
             },
             "designerId": "fa82974d-2f1f-4d0e-83a5-cd2cd70bc6b0",
@@ -32,9 +31,6 @@
                         "type": "object"
                     },
                     "codeClass": null,
-                    "userConfig": {
-                        "designer|userClassName": "MyArrayReader"
-                    },
                     "designerId": "e696fe4e-1d98-4b1a-b607-809a431e30e1"
                 }
             ]
@@ -47,8 +43,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "company",
-                "designer|userClassName": "MyField3"
+                "name": "company"
             },
             "designerId": "4f1bcb55-aca3-439f-9728-6275ec326519"
         },
@@ -61,8 +56,7 @@
             "codeClass": null,
             "userConfig": {
                 "name": "change",
-                "type": "float",
-                "designer|userClassName": "MyField4"
+                "type": "float"
             },
             "designerId": "0549e873-3c75-494f-ae7c-0ce385691146"
         },
@@ -75,8 +69,7 @@
             "codeClass": null,
             "userConfig": {
                 "name": "pctChange",
-                "type": "float",
-                "designer|userClassName": "MyField5"
+                "type": "float"
             },
             "designerId": "87bb7cf4-16d1-41e1-817a-7233441095cf"
         }

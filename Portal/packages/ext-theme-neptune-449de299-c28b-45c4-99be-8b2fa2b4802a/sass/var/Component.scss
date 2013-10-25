@@ -1,0 +1,5 @@
+$base-color: #157fcc;
+$base-light-color: mix(#fff, $base-color, 65%);
+$neutral-color: #e1e1e1;
+$neutral-light-color: mix(#fff, $neutral-color, 68%);
+$border-layout-ct-background-color: mix($base-light-color, $neutral-light-color, 30%);
