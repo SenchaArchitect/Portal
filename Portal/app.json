@@ -1,7 +1,7 @@
 {
-   "name": "Portal",
+   "name": "MyApp",
    "requires": [],
-   "id": "53a5dae6-d4f6-4887-80ab-9a5e52fb2bb4",
+   "id": "b187db63-334b-4c9c-b14c-e11d131b7d61",
    "resources": [
       "resources/css/portal.css"
    ],
@@ -9,6 +9,7 @@
       "_comment": "Please don't edit. This is Architect data.",
       "resources": [
          "resources/css/portal.css"
-      ]
+      ],
+      "requires": []
    }
 }

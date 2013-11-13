@@ -6,7 +6,6 @@
     },
     "codeClass": null,
     "userConfig": {
-        "autoCreateViewport": true,
         "controllers": [
             "MyController"
         ],

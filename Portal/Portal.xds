@@ -29,9 +29,9 @@
         }
     },
     "xdsVersion": "3.0.0",
-    "xdsBuild": 1314,
+    "xdsBuild": 1337,
     "schemaVersion": 1,
-    "upgradeVersion": 300000000001,
+    "upgradeVersion": 300000000003,
     "framework": "ext42",
     "viewOrderMap": {
         "view": [
@@ -53,7 +53,7 @@
         "model": [],
         "resource": [
             "7d7dafb5-094a-4ac0-80f6-e606c50018d9",
-            "449de299-c28b-45c4-99be-8b2fa2b4802a",
+            "7474c197-dce5-4cf4-93ca-e45b0718c653",
             "c2dd5573-0b00-4902-aa47-117a2e5ee515"
         ],
         "app": [

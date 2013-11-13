@@ -871,7 +871,6 @@ Ext.ClassManager.addNameAlternateMappings({
   "MyApp.view.PortalDropZone": [],
   "MyApp.view.PortalPanel": [],
   "MyApp.view.SimplePortlet": [],
-  "MyApp.view.Viewport": [],
   "Portal.Application": [],
   "Portal.controller.Main": [],
   "Portal.view.Main": []
@@ -1898,7 +1897,6 @@ Ext.ClassManager.addNameAliasMappings({
   "MyApp.view.SimplePortlet": [
     "widget.simpleportlet"
   ],
-  "MyApp.view.Viewport": [],
   "Portal.Application": [],
   "Portal.controller.Main": [],
   "Portal.view.Main": [
@@ -1907,7 +1905,7 @@ Ext.ClassManager.addNameAliasMappings({
 });
 Ext.setVersion("ext-theme-base", "4.2.1");
 Ext.setVersion("ext-theme-neptune", "4.2.1");
-Ext.setVersion("ext-theme-neptune-449de299-c28b-45c4-99be-8b2fa2b4802a", "1.0.0");
+Ext.setVersion("ext-theme-neptune-7474c197-dce5-4cf4-93ca-e45b0718c653", "1.0.0");
 Ext.setVersion("ext-theme-neutral", "4.2.1");
 Ext.Loader.loadScript("ext/packages/ext-theme-neptune/overrides/Component.js");;
 Ext.Loader.loadScript("ext/packages/ext-theme-neptune/overrides/panel/Panel.js");;
